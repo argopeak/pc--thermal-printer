@@ -35,7 +35,8 @@
 *% Page size settings.
 *OpenUI *PageSize/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageSize
-*DefaultPageSize:RP80x200
+*DefaultPageSize:RP80x150
+*PageSize RP80x150/Roll paper 80 x 150 mm: "<</PageSize[205.0 425.2]/ImagingBBox null>>setpagedevice"
 *PageSize RP80x200/Roll paper 80 x 200 mm: "<</PageSize[205.0 566.9]/ImagingBBox null>>setpagedevice"
 *PageSize RP80x2000/Roll paper 80 x 2000 mm: "<</PageSize[205.0 5669.3]/ImagingBBox null>>setpagedevice"
 *PageSize RP58x200/Roll paper 58 x 200 mm: "<</PageSize[144.0 566.9]/ImagingBBox null>>setpagedevice"
@@ -44,20 +45,23 @@
 
 *OpenUI *PageRegion: PickOne
 *OrderDependency: 10 AnySetup *PageRegion
-*DefaultPageRegion:RP80x200
+*DefaultPageRegion:RP80x150
+*PageRegion RP80x150/Roll paper 80 x 150 mm: "<</PageSize[205.0 425.2]/ImagingBBox null>>setpagedevice"
 *PageRegion RP80x200/Roll paper 80 x 200 mm: "<</PageSize[205.0 566.9]/ImagingBBox null>>setpagedevice"
 *PageRegion RP80x2000/Roll paper 80 x 2000 mm: "<</PageSize[205.0 5669.3]/ImagingBBox null>>setpagedevice"
 *PageRegion RP58x200/Roll paper 58 x 200 mm: "<</PageSize[144.0 566.9]/ImagingBBox null>>setpagedevice"
 *PageRegion RP58x2000/Roll paper 58 x 2000 mm: "<</PageSize[144.0 5669.3]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageRegion
 
-*DefaultImageableArea: RP80x200
+*DefaultImageableArea: RP80x150
+*ImageableArea RP80x150/Roll paper 80 x 150 mm: "0.0 0.0 205.0 425.2"
 *ImageableArea RP80x200/Roll paper 80 x 200 mm: "0.0 0.0 205.0 566.9"
 *ImageableArea RP80x2000/Roll paper 80 x 2000 mm: "0.0 0.0 205.0 5669.3"
 *ImageableArea RP58x200/Roll paper 58 x 200 mm: "0.0 0.0 144.0 566.9"
 *ImageableArea RP58x2000/Roll paper 58 x 2000 mm: "0.0 0.0 144.0 5669.3"
 
-*DefaultPaperDimension: RP80x200
+*DefaultPaperDimension: RP80x150
+*PaperDimension RP80x150/Roll paper 80 x 150 mm: "205.0 425.2"
 *PaperDimension RP80x200/Roll paper 80 x 200 mm: "205.0 566.9"
 *PaperDimension RP80x2000/Roll paper 80 x 2000 mm: "205.0 5669.3"
 *PaperDimension RP58x200/Roll paper 58 x 200 mm: "144.0 566.9"
